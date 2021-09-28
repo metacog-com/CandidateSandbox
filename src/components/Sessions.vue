@@ -53,8 +53,7 @@ export default {
         method: "GET",
         headers: {
           publisher_id: 'sandbox',
-          metacog_access_token: 'eyJraWQiOiJ4WnR6Q3VEZ203TkRVVVFvMjFuYXFmUmloS09SSm94eDQzalVaY3Y1VjZrPSIsImFsZyI6IlJTMjU2In0.eyJzdWIiOiJmMzkzZjMxMi0yYTRhLTQ2NmMtOTBhYi03OGRkMjYxNDgyZmYiLCJpc3MiOiJodHRwczpcL1wvY29nbml0by1pZHAudXMtZWFzdC0xLmFtYXpvbmF3cy5jb21cL3VzLWVhc3QtMV8xVGNrT0Z0a3MiLCJ2ZXJzaW9uIjoyLCJjbGllbnRfaWQiOiI0M3AzYzk1a2tvYm1kbmJoNnZsZHZlb3BlNCIsIm9yaWdpbl9qdGkiOiJlZWI1M2UzOC0zNTBlLTRjMWQtYTEzOS0wNDk4ZDdjMDM4NzAiLCJldmVudF9pZCI6IjYyNmQ0NWNkLWE5ODMtNDllOC05ZDQxLTRkZTdlNWNmZGVhYSIsInRva2VuX3VzZSI6ImFjY2VzcyIsInNjb3BlIjoiYXdzLmNvZ25pdG8uc2lnbmluLnVzZXIuYWRtaW4gcGhvbmUgb3BlbmlkIHByb2ZpbGUgZW1haWwiLCJhdXRoX3RpbWUiOjE2MzI4MzE4NjYsImV4cCI6MTYzMjg0NjI2NiwiaWF0IjoxNjMyODMxODY2LCJqdGkiOiIyNjdjYzM5Ny1mYzBjLTQ2ZjgtODU1Zi1jYWYwODQ5YWZiN2YiLCJ1c2VybmFtZSI6ImYzOTNmMzEyLTJhNGEtNDY2Yy05MGFiLTc4ZGQyNjE0ODJmZiJ9.lLeUyLMHtkDWH5x9We6g2f3kSaJDBGP7xHfzeTcsbV28yWJb3uHX2arRe90TqEopX9R4rAxeOgGbEqI85BZwYuJhKUlm9QH8P-1lKMpLLMSfm7kzE3_xsOs_MFjMu84EsfjAThg3sBXfiAdQZcHRuKt_AD8a8sjfw34B-kh-CspaVd5KfreX31C2Ei5pJc2nkDwUyxcymOvGnqwPEfjNS74YKdPbUCjtL-_cCcmwah1HecsGCoPRLwBmvYimhiSfKFokEUQDEYKeq9Gb0WJceqPkrDjZ9UMxllJFaEb-Mt6rpgWi9pgQOEWH6ZoY7CNWPJOM6RNyLtF5Acwye4f54w',
-          application_id: 'fGDy7OOyxreBzrlZUFqXh1Xk4DVnsVHt'
+          application_id: 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'
         },
         url,
       });
@@ -69,8 +68,7 @@ export default {
         method: "GET",
         headers: {
           publisher_id: 'sandbox',
-          metacog_access_token: 'eyJraWQiOiJ4WnR6Q3VEZ203TkRVVVFvMjFuYXFmUmloS09SSm94eDQzalVaY3Y1VjZrPSIsImFsZyI6IlJTMjU2In0.eyJzdWIiOiJmMzkzZjMxMi0yYTRhLTQ2NmMtOTBhYi03OGRkMjYxNDgyZmYiLCJpc3MiOiJodHRwczpcL1wvY29nbml0by1pZHAudXMtZWFzdC0xLmFtYXpvbmF3cy5jb21cL3VzLWVhc3QtMV8xVGNrT0Z0a3MiLCJ2ZXJzaW9uIjoyLCJjbGllbnRfaWQiOiI0M3AzYzk1a2tvYm1kbmJoNnZsZHZlb3BlNCIsIm9yaWdpbl9qdGkiOiJlZWI1M2UzOC0zNTBlLTRjMWQtYTEzOS0wNDk4ZDdjMDM4NzAiLCJldmVudF9pZCI6IjYyNmQ0NWNkLWE5ODMtNDllOC05ZDQxLTRkZTdlNWNmZGVhYSIsInRva2VuX3VzZSI6ImFjY2VzcyIsInNjb3BlIjoiYXdzLmNvZ25pdG8uc2lnbmluLnVzZXIuYWRtaW4gcGhvbmUgb3BlbmlkIHByb2ZpbGUgZW1haWwiLCJhdXRoX3RpbWUiOjE2MzI4MzE4NjYsImV4cCI6MTYzMjg0NjI2NiwiaWF0IjoxNjMyODMxODY2LCJqdGkiOiIyNjdjYzM5Ny1mYzBjLTQ2ZjgtODU1Zi1jYWYwODQ5YWZiN2YiLCJ1c2VybmFtZSI6ImYzOTNmMzEyLTJhNGEtNDY2Yy05MGFiLTc4ZGQyNjE0ODJmZiJ9.lLeUyLMHtkDWH5x9We6g2f3kSaJDBGP7xHfzeTcsbV28yWJb3uHX2arRe90TqEopX9R4rAxeOgGbEqI85BZwYuJhKUlm9QH8P-1lKMpLLMSfm7kzE3_xsOs_MFjMu84EsfjAThg3sBXfiAdQZcHRuKt_AD8a8sjfw34B-kh-CspaVd5KfreX31C2Ei5pJc2nkDwUyxcymOvGnqwPEfjNS74YKdPbUCjtL-_cCcmwah1HecsGCoPRLwBmvYimhiSfKFokEUQDEYKeq9Gb0WJceqPkrDjZ9UMxllJFaEb-Mt6rpgWi9pgQOEWH6ZoY7CNWPJOM6RNyLtF5Acwye4f54w',
-          application_id: 'fGDy7OOyxreBzrlZUFqXh1Xk4DVnsVHt'
+          application_id: 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'
         },
         url,
       });
