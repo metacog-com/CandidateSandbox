@@ -1,14 +1,15 @@
 <template>
-  <HelloWorld  />
+  <Sessions  />
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import Sessions from './components/Sessions.vue'
 
 export default {
   name: 'App',
+  
   components: {
-    HelloWorld
+    Sessions
   }
 }
 </script>
