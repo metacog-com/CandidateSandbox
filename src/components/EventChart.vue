@@ -11,6 +11,7 @@ export default {
   mounted() {
     const chartCtx = this.$refs.chart;
 
+    // https://www.chartjs.org/docs/latest/
     new Chart(chartCtx, {
       type: 'bar',
       data: {
