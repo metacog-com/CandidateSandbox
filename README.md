@@ -18,6 +18,10 @@ Michael Finneran
 
 ## The Application
 
+![Screen Shot 2021-10-13 at 5 00 18 AM](https://user-images.githubusercontent.com/67082944/137118527-31c17f8a-4095-49a3-80c5-96eb2a973fde.png)
+
+![Screen Shot 2021-10-13 at 5 00 43 AM](https://user-images.githubusercontent.com/67082944/137118309-bd4b8f9c-9757-481e-b20a-455e632b3135.png)
+   
 ### Dependencies
 - [Vue](https://vuejs.org) - javascript framework
 - [Tailwind](https://tailwindcss.com/) - css framework
@@ -27,7 +31,7 @@ Michael Finneran
 - [Chart.js](https://www.chartjs.org/) - javascript charting library
 
 ### Folder Structure 
-
+```
 - src/
    |____assets/
           |_____styles/index.css
@@ -49,6 +53,8 @@ Michael Finneran
           |_____chartJsHelpers.js
           |_____momentHelpers.js
 
+```
+   
 ### .env
 
 You will need to add a `.env` file to the root of this repository with the following keys and replace `placeholder` with valid values.
